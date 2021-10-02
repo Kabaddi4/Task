@@ -1,0 +1,43 @@
+/* ここに、リセットCSSが不足。box-sizing:border-boxも記載する。 */
+
+.header {
+    width: 100%;
+    height: 50px;
+    background-color: red;
+}
+
+.main-content {
+    width: 100%;
+    height: 500px;
+    background-color: salmon;
+}
+
+.main {
+    width: 1349px;
+    height: 1400px;
+    display: flex;
+    justify-content: center;
+    background-color: sandybrown;
+    margin: 0 auto;
+}
+
+.box1 {
+    width: 960px;
+    height: 1400px;
+    background-color: springgreen;
+    display: flex;
+    justify-content: center;
+}
+
+.box2 {
+    width: 500px;
+    height: 1400px;
+    background-color: green;
+}
+/* ↑　自分は親２、子２　で書いたが解答では、　親１子３になっていた。要注意 */
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: indigo;
+}

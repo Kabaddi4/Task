@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #6c6b6b;
+  }
+
+  .main-visual {
+      width: 100%;
+      height: 400px;
+      background-image: url(img/mv.jpg);
+      background-position: bottom;
+      background-size: auto;
+  }
+  /* size:cover だった */
+
+  .main-visual-text {
+      padding-top: 20px;
+      margin-left: 20px;
+  }
+
+  .blog {
+      width: 840px;
+      margin: 0 auto;
+      padding-top: 50px;
+      padding-bottom: 50px;
+  }
+
+  .blog-item {
+      margin-bottom: 30px;
+  }
+  /* 枠線を引く border-:x solidが抜けていた。 */
+  /* コンテンツ一つにつきクラスを１つ作成していた。 */
