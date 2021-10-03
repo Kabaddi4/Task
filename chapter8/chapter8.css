@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black
+}
+
+main {
+    height: 100%;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-list {
+    text-align: left;
+    margin: 50px auto;
+    list-style: none;
+}
+
+.nav-list-odd, .nav-list-even {
+    padding: 20px 20px;
+}
+
+/* 奇数の列の色を変更 */
+.nav-list-odd {
+    background-color: rgb(231, 231, 231);
+}
+
+.blog {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+/* 箱の大きさを一括設定 */
+.blog-item1, .blog-item2, .blog-item3, .blog-item4, .blog-item5, .blog-item6, .blog-item7, .blog-item8, .blog-item9 {
+    width: 30%;
+    height: 200px;
+}
+
+/* 右端以外の箱の右側余白 */
+.blog-item1, .blog-item2, .blog-item4, .blog-item5, .blog-item7, .blog-item8 {
+    margin-right: 5%;
+}
+
+/* 中央の列の上下余白 */
+.blog-item4, .blog-item5, .blog-item6 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/* 右斜めの列の色を変更 */
+.blog-item1, .blog-item5, .blog-item9 {
+    background-color: rgb(233, 130, 130);
+}
+
+/* 右斜めの列以外の色を変更 */
+.blog-item2, .blog-item3, .blog-item4, .blog-item6, .blog-item7, .blog-item8 {
+    background-color: rgb(219, 219, 4);
+}
