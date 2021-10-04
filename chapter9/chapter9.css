@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+}
+
+header {
+    height: 50px;
+    background-color: #FF9A4B;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blog {
+    display: flex;
+    justify-content: center;
+    width: 960px;
+    height: 100%;
+    align-items: center;
+}
+
+.blog-box {
+    flex-shrink: 0;
+    width: 300px;
+    background-color: #EEEEEE;
+    position: relative;
+    margin: 50px 15px;
+    text-align: center;
+}
+
+.blog-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #FF9A4B;
+    color: white;
+}
+
+.blog-image {
+    width: 280px;
+    height: 150px;
+    margin: 10px 10px;
+}
+
+
+.blog-text-heading {
+    text-align: left;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.blog-text {
+    margin: 5px auto;
+}
+
+footer {
+    height: 50px;
+    background-color: #AAAAAA;
+}
